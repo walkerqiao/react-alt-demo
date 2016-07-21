@@ -1,8 +1,8 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-frontend",
   "private": true,
   "version": "2.5.6",
-  "description": "Boilerplate for [SurviveJS - React](http://survivejs.com/react/introduction/)",
+  "description": "react + webpack + es6",
   "scripts": {
     "stats": "webpack --profile --json > stats.json",
     "start": "webpack-dev-server",
@@ -13,7 +13,7 @@
     "test:lint": "eslint ./app ./tests --ext .js --ext .jsx --ignore-path .gitignore --ignore-pattern dist --cache"
   },
   "keywords": [],
-  "author": "",
+  "author": "qiaogqiang@163.com",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.9.0",
