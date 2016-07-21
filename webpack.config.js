@@ -61,8 +61,8 @@ switch(TARGET) {
                 },
                 output: {
                     path: PATHS.build,
-                    filename: '[name].[chunkhash].js',
-                    chunkFilename: '[chunkhash].js'
+                    filename: 'js/[name].[chunkhash].js',
+                    chunkFilename: 'js/[chunkhash].js'
                 }
             },
             parts.clean(PATHS.build),
